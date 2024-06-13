@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="../css/output.css">
+    <style>
+      @media (min-width: 1024px){
+        .clip{
+          clip-path: polygon(0 0, 100% 0, 100% 28%, 70% 100%, 0 100%);
+        }
+      }
+
+      @media (min-width: 768px){
+        .clip{
+          clip-path: polygon(0 0, 100% 0, 100% 55%, 60% 100%, 0 100%);
+        }
+      }
+    </style>
+  </head>
+  <body class="bg-blanco2 w-full relative">
+    <degradado class="clip bg-gradient-to-r from-azul1/90 to-azul5/90 absolute w-full xl:h-[420px]"></degradado>
+    <fondo class="clip bg-[url('../media/fondo2.jpg')] bg-cover absolute w-full lg:h-[350px] xl:h-[420px] z-[-10]"></fondo>
+    <img src="../media/Senior_Care_Logo_2.webp" alt="Logo" class="animate__animated animate__fadeInTopRight animate__slow absolute hidden md:block md:w-40 md:top-[12%] md:left-[75%] lg:w-52 lg:top-[15%] xl:w-72 xl:top-[10%] xl:left-[75%] z-20">
+    <header class="clip w-full lg:h-[350px] xl:h-[420px] px-[5%] md:px-[7%] lg:px-[10%]">
+      <nav class="flex w-full xl:h-28 justify-center items-center z-10">
+        <div class="flex justify-between items-center w-auto gap-4">
+          <a class="text-blanco2 hidden md:block font-semibold hover:animate-grow hover:underline" href="#">Inicio</a>
+          <a class="text-blanco2 hidden md:block font-semibold hover:animate-grow hover:underline" href="#">Sobre Nosotros</a>
+          <a class="text-blanco2 hidden md:block font-semibold hover:animate-grow hover:underline" href="#">Contacto</a>
+          <a class="bg-azul1 text-blanco2 hover:animate-grow2 hover:bg-azul0 px-2.5 py-1.5 rounded-2xl font-semibold" href="">Whatsapp</a>
+        </div>
+      </nav>
+  
+      <div class="pt-5">
+        <h1 class="animate__animated animate__fadeIn animate__slow animate__delay-0.5s text-blanco2 xl:text-5xl font-bold font-didactGotic">Senior Care</h1>
+        <h2 class="animate__animated animate__fadeIn animate__slow animate__delay-0.5s text-blanco1 xl:text-2xl font-actor xl:mb-3.5">Dignidad, confort y cuidado para nuestros mayores</h2>
+        <p class="animate__animated animate__fadeIn animate__slow animate__delay-1s xl:w-[32rem] text-blanco1 text-justify xl:text-md font-actor">En <span class="font-bold">Senior Care</span>, nos dedicamos a proporcionar cuidados integrales y personalizados para personas mayores, con un enfoque en la dignidad, la comodidad y el bienestar de cada individuo. Nuestro equipo de profesionales capacitados está aquí para ofrecer el apoyo necesario para que tus seres queridos disfruten de una vida plena y feliz en la comodidad de su hogar.</p>
+      </div>
+    </header>
+    
+    <!-- Caracteristicas -->
+    <main class="flex flex-col xl:gap-12 xl:px-[10%] xl:pt-12 xl:pb-8 z-10">
+      <section class="flex flex-col">
+        <h1 class="font-didactGotic xl:text-2xl font-bold text-azul1 xl:mb-4">¿Por que elegirnos?</h1>
+        <div class="flex xl:gap-5">
+          <div class="bg-gradient-to-r from-blanco1/10 via-blanco3/15 to-blanco1/10 px-3 py-6 rounded-2xl">
+            <h3 class="font-actor font-bold xl:text-xl text-azul3 xl:mb-1">Experiencia y profesionalismo</h3>
+            <p class="text-justify text-azul1 text-md">Con años de experiencia en el cuidado de personas mayores, nuestro equipo está altamente capacitado para abordar las necesidades físicas, emocionales y sociales de cada individuo.</p>
+          </div>
+  
+          <div class="bg-gradient-to-r from-blanco1/10 via-blanco3/15 to-blanco1/10 px-3 py-6 rounded-2xl">
+            <h3 class="font-actor font-bold xl:text-xl text-azul3 xl:mb-1">Atención personalizada</h3>
+            <p class="text-justify text-azul1 xl:text-md">Nos comprometemos a proporcionar una atención personalizada y centrada en el individuo, adaptada a las necesidades y preferencias de cada persona.</p>
+          </div>
+  
+          <div class="bg-gradient-to-r from-blanco1/10 via-blanco3/15 to-blanco1/10 px-3 py-6 rounded-2xl">
+            <h3 class="font-actor font-bold xl:text-xl text-azul3 xl:mb-1">Calidad de vida</h3>
+            <p class="text-justify text-azul1 xl:text-md">Nuestro objetivo es mejorar la calidad de vida de nuestros residentes, fomentando la independencia, la autonomía y la participación en actividades significativas.</p>
+          </div>
+        </div>  
+        
+        <!-- Alianzas -->
+          <div class="flex flex-col xl:gap-2">
+            <h2 class="font-didactGotic xl:text-2xl font-bold text-azul1 xl:mt-12">Nuestras alianzas</h2>
+            <div class="flex justify-center items-center rounded-2xl py-6 bg-gradient-to-r from-blanco1/10 via-blanco1/20 to-blanco1/10 xl:gap-10">
+              <img class="xl:w-24 mix-blend-multiply" src="../media/partner1.png" alt="Alianza">
+              <img class="xl:w-24 mix-blend-multiply" src="../media/partner2.jpg" alt="Alianza">
+              <img class="xl:w-24 mix-blend-multiply" src="../media/partner3.jpg" alt="Alianza">
+              <img class="xl:w-24 mix-blend-multiply" src="../media/partner4.png" alt="Alianza">
+              <img class="xl:w-24 mix-blend-multiply" src="../media/partner1.png" alt="Alianza">
+              <img class="xl:w-24 mix-blend-multiply" src="../media/partner2.jpg" alt="Alianza">
+              <img class="xl:w-24 mix-blend-multiply" src="../media/partner3.jpg" alt="Alianza">
+              <img class="xl:w-24 mix-blend-multiply" src="../media/partner4.png" alt="Alianza">
+            </div>   
+          </div>
+      </section>
+      
+      <!-- Reseñas -->
+      
+      
+      <!-- Contacto -->
+      <section></section>
+    </main>
+
+    
+    <footer class="bg-gradient-to-tr from-azul1 to-azul4  text-blanco2 px-[10%] py-8">
+      
+      <div class="flex justify-between items-center gap-8 mb-4">
+        <div>
+          <h3 class="font-didactGotic text-2xl font-bold">Senior Care</h3>
+          <p class="text-sm">Dignidad, confort y cuidado para nuestros mayores</p>
+        </div>
+        <div>
+          <h3 class="font-didactGotic text-2xl font-bold">Contacto</h3>
+          <p class="text-sm">Dirección: 123 Calle Principal, Ciudad, País</p>
+          <p class="text-sm">Teléfono: +123 456 7890</p>
+          <p class="text-sm">Correo: <a href="mailto:seniorcare@gmail.com">seniorcare@gmail.com</a></p>
+        </div>
+      </div>
+      <hr>
+      <nav class="flex justify-center items-center gap-8 text-blanco2 h-14">
+        <a class="hover:underline" href="#">Inicio</a>
+        <a class="hover:underline" href="#sobre_nosotros">Sobre Nosotros</a>
+        <a class="hover:underline" href="#contacto">Contacto</a>
+      </nav>
+    </footer>
+  </body>
+</html>
